@@ -1,5 +1,5 @@
 html {
-    background-color: rgb(212, 212, 212);
+    background-color: rgb(239, 239, 239);
 }
 .container{
     width: 1100px;
@@ -16,7 +16,7 @@ html {
     position: relative;
     z-index: 1; /*para ficar na frente de bloco perfil*/
     margin-top: 90px;
-    background-color: rgb(150, 150, 150);
+    background-color: rgb(104, 165, 231);
     display: flex;
     justify-content: center;
     text-align: center
@@ -29,7 +29,7 @@ html {
 
 /*bloco perfil - faixa a esquerda com dados pessoais*/
 .bloco_perfil {
-    background-color: rgb(65, 8, 118);
+    background-color: rgb(0, 50, 131);
     width: 22%;
     left: 30px;
     height: 900px;
@@ -47,19 +47,28 @@ html {
 }
 
 .bloco_perfil .dados {
-    margin-bottom: 300px;
+    margin-bottom: 50px;
+    margin-right: 40px;
     color: white;
-    left: 60px;
-    position: absolute;
+    left: 50px;
+    position: relative;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
+    bottom: 15px;
+}
+
+.bloco_perfil .dados a {
+    color: rgb(122, 228, 252);
+    font-family: sans-serif;
 }
 /*imagem do bloco perfil*/
 
 img {
-    position: relative;
-    bottom: 420px;
-    left: 42px;
+    position: absolute;
+    bottom: 340px;
+    left: 58px;
+    width: 210px;
+    height: 340px;
 }
 
 /*config das fontes do bloco container*/
@@ -84,3 +93,16 @@ img {
 }
 
 /*configurando as imagens que estão no bloco de perfil*/
+
+.container .idioma img {
+    width: 40px;
+    height: 40px;
+    bottom: 53px;
+    left: 5px;
+    position: relative;
+}
+
+.container .idioma p {
+    position: relative;
+    left: 30px;
+}
